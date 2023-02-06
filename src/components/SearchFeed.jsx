@@ -7,7 +7,7 @@ import Videos from "./Videos";
 
 
 const SearchFeed = () => {
-  const [videos, setVideos] = useState(null);
+  const [videos, setVideos] = useState();
   const { searchTerm } = useParams();
 
   useEffect(() => {
